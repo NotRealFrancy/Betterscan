@@ -5,7 +5,6 @@
 #include <vector>
 
 using namespace std;
-inline vector<string> splitInput(const string& input, char separator = ' ');
 inline vector<string> splitInput(const string& input, char separator) {
 	vector<string> tokens;
 	istringstream stream(input);
